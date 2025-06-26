@@ -53,6 +53,15 @@ const styles = {
     fontSize: 18,
     textAlign: "right",
   },
+  caseBox: {
+    margin: "16px 0 8px 0",
+    padding: "8px 16px",
+    background: "#e8f0fe",
+    borderRadius: 8,
+    fontWeight: 700,
+    fontSize: 18,
+    display: "inline-block",
+  },
 };
 
 const dayTypes = ["Workday", "Rest Day"];
@@ -221,6 +230,9 @@ export default function Calculator() {
       <hr style={{ margin: "24px 0" }} />
       {rateEntry ? (
         <div>
+          <div style={styles.caseBox}>
+            Work Setting Case: <span>{rateEntry.newSettingsCode}</span>
+          </div>
           <h4>Rates & Calculated Pay</h4>
           <table style={styles.table}>
             <thead>
