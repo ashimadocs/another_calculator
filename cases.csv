@@ -1,89 +1,72 @@
-﻿Cases,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,NEW SETTINGS,,,,,,,,,,,,,
-#,Start Day Type,RULE,NEW SETTINGS CODE,Start Holiday,HOL,NSD,OT,,End Day Type,End Holiday,HOL,NSD,OT,
-1,Workday,applicable_hours,a1,None,1,0.1,1.25,,Workday,None,1,0.1,1.25,
-2,Workday,applicable_hours,a1,None,1,0.1,1.25,,Workday,Special,1.3,0.43,1.69,
-3,Workday,applicable_hours,a1,None,1,0.1,1.25,,Workday,Regular,2,1.2,2.6,
-4,Workday,applicable_hours,a1,None,1,0.1,1.25,,Rest Day,None,1.3,0.43,1.69,
-5,Workday,applicable_hours,a1,None,1,0.1,1.25,,Rest Day,Special,1.5,0.65,1.95,
-6,Workday,applicable_hours,a1,None,1,0.1,1.25,,Rest Day,Regular,2.6,1.8,3.38,
-7,Workday,full_shift,a2,None,1,0.1,1.25,,Workday,None,1,0.1,1.25,
-8,Workday,full_shift,a2,None,1,0.1,1.25,,Workday,Special,1,0.1,1.25,
-9,Workday,full_shift,a2,None,1,0.1,1.25,,Workday,Regular,1,0.1,1.25,
-10,Workday,full_shift,a2,None,1,0.1,1.25,,Rest Day,None,1,0.1,1.25,
-11,Workday,full_shift,a2,None,1,0.1,1.25,,Rest Day,Special,1,0.1,1.25,
-12,Workday,full_shift,a2,None,1,0.1,1.25,,Rest Day,Regular,1,0.1,1.25,
-13,Workday,applicable_hours,a1,Special,1.3,0.43,1.69,,Workday,None,1,0.1,1.25,
-14,Workday,applicable_hours,a1,Special,1.3,0.43,1.69,,Workday,Special,1.3,0.43,1.69,
-15,Workday,applicable_hours,a1,Special,1.3,0.43,1.69,,Workday,Regular,2,1.2,2.6,
-16,Workday,applicable_hours,a1,Special,1.3,0.43,1.69,,Rest Day,None,1.3,0.43,1.69,
-17,Workday,applicable_hours,a1,Special,1.3,0.43,1.69,,Rest Day,Special,1.5,0.65,1.95,
-18,Workday,applicable_hours,a1,Special,1.3,0.43,1.69,,Rest Day,Regular,2.6,1.8,3.38,
-19,Workday,full_shift,a2,Special,1.3,0.43,1.69,,Workday,None,1.3,0.43,1.69,
-20,Workday,full_shift,a2,Special,1.3,0.43,1.69,,Workday,Special,1.3,0.43,1.69,
-21,Workday,full_shift,a2,Special,1.3,0.43,1.69,,Workday,Regular,1.3,0.43,1.69,
-22,Workday,full_shift,a2,Special,1.3,0.43,1.69,,Rest Day,None,1.3,0.43,1.69,
-23,Workday,full_shift,a2,Special,1.3,0.43,1.69,,Rest Day,Special,1.3,0.43,1.69,
-24,Workday,full_shift,a2,Special,1.3,0.43,1.69,,Rest Day,Regular,1.3,0.43,1.69,
-25,Workday,applicable_hours,a1,Regular,2,1.2,2.6,,Workday,None,1,0.1,1.25,
-26,Workday,applicable_hours,a1,Regular,2,1.2,2.6,,Workday,Special,1.3,0.43,1.69,
-27,Workday,applicable_hours,a1,Regular,2,1.2,2.6,,Workday,Regular,2,1.2,2.6,
-28,Workday,applicable_hours,a1,Regular,2,1.2,2.6,,Rest Day,None,1.3,0.43,1.69,
-29,Workday,applicable_hours,a1,Regular,2,1.2,2.6,,Rest Day,Special,1.5,0.65,1.95,
-30,Workday,applicable_hours,a1,Regular,2,1.2,2.6,,Rest Day,Regular,2.6,1.8,3.38,
-31,Workday,full_shift,a2,Regular,2,1.2,2.6,,Workday,None,2,1.2,2.6,
-32,Workday,full_shift,a2,Regular,2,1.2,2.6,,Workday,Special,2,1.2,2.6,
-33,Workday,full_shift,a2,Regular,2,1.2,2.6,,Workday,Regular,2,1.2,2.6,
-34,Workday,full_shift,a2,Regular,2,1.2,2.6,,Rest Day,None,2,1.2,2.6,
-35,Workday,full_shift,a2,Regular,2,1.2,2.6,,Rest Day,Special,2,1.2,2.6,
-36,Workday,full_shift,a2,Regular,2,1.2,2.6,,Rest Day,Regular,2,1.2,2.6,
-37,Rest Day,applicable_hours,b1,None,1.3,0.43,1.69,,Workday,None,1,0.1,1.25,
-38,Rest Day,applicable_hours,b1,None,1.3,0.43,1.69,,Workday,Special,1.3,0.43,1.69,
-39,Rest Day,applicable_hours,b1,None,1.3,0.43,1.69,,Workday,Regular,2,1.2,2.6,
-40,Rest Day,applicable_hours,b1,None,1.3,0.43,1.69,,Rest Day,None,1.3,0.43,1.69,
-41,Rest Day,applicable_hours,b1,None,1.3,0.43,1.69,,Rest Day,Special,1.5,0.65,1.95,
-42,Rest Day,applicable_hours,b1,None,1.3,0.43,1.69,,Rest Day,Regular,2.6,1.8,3.38,
-43,Rest Day,full_shift,b2,None,1.3,0.43,1.69,,Workday,None,1.3,0.43,1.69,
-44,Rest Day,full_shift,b2,None,1.3,0.43,1.69,,Workday,Special,1.3,0.43,1.69,
-45,Rest Day,full_shift,b2,None,1.3,0.43,1.69,,Workday,Regular,1.3,0.43,1.69,
-46,Rest Day,full_shift,b2,None,1.3,0.43,1.69,,Rest Day,None,1.3,0.43,1.69,
-47,Rest Day,full_shift,b2,None,1.3,0.43,1.69,,Rest Day,Special,1.3,0.43,1.69,
-48,Rest Day,full_shift,b2,None,1.3,0.43,1.69,,Rest Day,Regular,1.3,0.43,1.69,
-49,Rest Day,applicable_hours,b1,Special,1.5,0.65,1.95,,Workday,None,1,0.1,1.25,
-50,Rest Day,applicable_hours,b1,Special,1.5,0.65,1.95,,Workday,Special,1.3,0.43,1.69,
-51,Rest Day,applicable_hours,b1,Special,1.5,0.65,1.95,,Workday,Regular,2,1.2,2.6,
-52,Rest Day,applicable_hours,b1,Special,1.5,0.65,1.95,,Rest Day,None,1.3,0.43,1.69,
-53,Rest Day,applicable_hours,b1,Special,1.5,0.65,1.95,,Rest Day,Special,1.5,0.65,1.95,
-54,Rest Day,applicable_hours,b1,Special,1.5,0.65,1.95,,Rest Day,Regular,2.6,1.8,3.38,
-55,Rest Day,full_shift,b2,Special,1.5,0.65,1.95,,Workday,None,1.5,0.65,1.95,
-56,Rest Day,full_shift,b2,Special,1.5,0.65,1.95,,Workday,Special,1.5,0.65,1.95,
-57,Rest Day,full_shift,b2,Special,1.5,0.65,1.95,,Workday,Regular,1.5,0.65,1.95,
-58,Rest Day,full_shift,b2,Special,1.5,0.65,1.95,,Rest Day,None,1.5,0.65,1.95,
-59,Rest Day,full_shift,b2,Special,1.5,0.65,1.95,,Rest Day,Special,1.5,0.65,1.95,
-60,Rest Day,full_shift,b2,Special,1.5,0.65,1.95,,Rest Day,Regular,1.5,0.65,1.95,
-61,Rest Day,applicable_hours,b1,Regular,2.6,1.8,3.38,,Workday,None,1,0.1,1.25,
-62,Rest Day,applicable_hours,b1,Regular,2.6,1.8,3.38,,Workday,Special,1.3,0.43,1.69,
-63,Rest Day,applicable_hours,b1,Regular,2.6,1.8,3.38,,Workday,Regular,2,1.2,2.6,
-64,Rest Day,applicable_hours,b1,Regular,2.6,1.8,3.38,,Rest Day,None,1.3,0.43,1.69,
-65,Rest Day,applicable_hours,b1,Regular,2.6,1.8,3.38,,Rest Day,Special,1.5,0.65,1.95,
-66,Rest Day,applicable_hours,b1,Regular,2.6,1.8,3.38,,Rest Day,Regular,2.6,1.8,3.38,
-67,Rest Day,full_shift,b2,Regular,2.6,1.8,3.38,,Workday,None,2.6,1.8,3.38,
-68,Rest Day,full_shift,b2,Regular,2.6,1.8,3.38,,Workday,Special,2.6,1.8,3.38,
-69,Rest Day,full_shift,b2,Regular,2.6,1.8,3.38,,Workday,Regular,2.6,1.8,3.38,
-70,Rest Day,full_shift,b2,Regular,2.6,1.8,3.38,,Rest Day,None,2.6,1.8,3.38,
-71,Rest Day,full_shift,b2,Regular,2.6,1.8,3.38,,Rest Day,Special,2.6,1.8,3.38,
-72,Rest Day,full_shift,b2,Regular,2.6,1.8,3.38,,Rest Day,Regula,2.6,1.8,3.38,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
+1,Workday,applicable_hours,a1,None,1,0.1,1.25,,Workday,None,1,0.1,1.25
+2,Workday,applicable_hours,a1,None,1,0.1,1.25,,Workday,Special,1.3,0.13,1.69
+3,Workday,applicable_hours,a1,None,1,0.1,1.25,,Workday,Regular,2,0.2,2.6
+4,Workday,applicable_hours,a1,None,1,0.1,1.25,,Rest Day,None,1.3,0.13,1.69
+5,Workday,applicable_hours,a1,None,1,0.1,1.25,,Rest Day,Special,1.5,0.15,1.95
+6,Workday,applicable_hours,a1,None,1,0.1,1.25,,Rest Day,Regular,2.6,0.28,3.38
+7,Workday,full_shift,a2,None,1,0.1,1.25,,Workday,None,1,0.1,1.25
+8,Workday,full_shift,a2,None,1,0.1,1.25,,Workday,Special,1,0.1,1.25
+9,Workday,full_shift,a2,None,1,0.1,1.25,,Workday,Regular,1,0.1,1.25
+10,Workday,full_shift,a2,None,1,0.1,1.25,,Rest Day,None,1,0.1,1.25
+11,Workday,full_shift,a2,None,1,0.1,1.25,,Rest Day,Special,1,0.1,1.25
+12,Workday,full_shift,a2,None,1,0.1,1.25,,Rest Day,Regular,1,0.1,1.25
+13,Workday,applicable_hours,a1,Special,1.3,0.13,1.69,,Workday,None,1,0.1,1.25
+14,Workday,applicable_hours,a1,Special,1.3,0.13,1.69,,Workday,Special,1.3,0.13,1.69
+15,Workday,applicable_hours,a1,Special,1.3,0.13,1.69,,Workday,Regular,2,0.2,2.6
+16,Workday,applicable_hours,a1,Special,1.3,0.13,1.69,,Rest Day,None,1.3,0.13,1.69
+17,Workday,applicable_hours,a1,Special,1.3,0.13,1.69,,Rest Day,Special,1.5,0.15,1.95
+18,Workday,applicable_hours,a1,Special,1.3,0.13,1.69,,Rest Day,Regular,2.6,0.28,3.38
+19,Workday,full_shift,a2,Special,1.3,0.13,1.69,,Workday,None,1.3,0.13,1.69
+20,Workday,full_shift,a2,Special,1.3,0.13,1.69,,Workday,Special,1.3,0.13,1.69
+21,Workday,full_shift,a2,Special,1.3,0.13,1.69,,Workday,Regular,1.3,0.13,1.69
+22,Workday,full_shift,a2,Special,1.3,0.13,1.69,,Rest Day,None,1.3,0.13,1.69
+23,Workday,full_shift,a2,Special,1.3,0.13,1.69,,Rest Day,Special,1.3,0.13,1.69
+24,Workday,full_shift,a2,Special,1.3,0.13,1.69,,Rest Day,Regular,1.3,0.13,1.69
+25,Workday,applicable_hours,a1,Regular,2,0.2,2.6,,Workday,None,1,0.1,1.25
+26,Workday,applicable_hours,a1,Regular,2,0.2,2.6,,Workday,Special,1.3,0.13,1.69
+27,Workday,applicable_hours,a1,Regular,2,0.2,2.6,,Workday,Regular,2,0.2,2.6
+28,Workday,applicable_hours,a1,Regular,2,0.2,2.6,,Rest Day,None,1.3,0.13,1.69
+29,Workday,applicable_hours,a1,Regular,2,0.2,2.6,,Rest Day,Special,1.5,0.15,1.95
+30,Workday,applicable_hours,a1,Regular,2,0.2,2.6,,Rest Day,Regular,2.6,0.28,3.38
+31,Workday,full_shift,a2,Regular,2,0.2,2.6,,Workday,None,2,0.2,2.6
+32,Workday,full_shift,a2,Regular,2,0.2,2.6,,Workday,Special,2,0.2,2.6
+33,Workday,full_shift,a2,Regular,2,0.2,2.6,,Workday,Regular,2,0.2,2.6
+34,Workday,full_shift,a2,Regular,2,0.2,2.6,,Rest Day,None,2,0.2,2.6
+35,Workday,full_shift,a2,Regular,2,0.2,2.6,,Rest Day,Special,2,0.2,2.6
+36,Workday,full_shift,a2,Regular,2,0.2,2.6,,Rest Day,Regular,2,0.2,2.6
+37,Rest Day,applicable_hours,b1,None,1.3,0.13,1.69,,Workday,None,1,0.1,1.25
+38,Rest Day,applicable_hours,b1,None,1.3,0.13,1.69,,Workday,Special,1.3,0.13,1.69
+39,Rest Day,applicable_hours,b1,None,1.3,0.13,1.69,,Workday,Regular,2,0.2,2.6
+40,Rest Day,applicable_hours,b1,None,1.3,0.13,1.69,,Rest Day,None,1.3,0.13,1.69
+41,Rest Day,applicable_hours,b1,None,1.3,0.13,1.69,,Rest Day,Special,1.5,0.15,1.95
+42,Rest Day,applicable_hours,b1,None,1.3,0.13,1.69,,Rest Day,Regular,2.6,0.28,3.38
+43,Rest Day,full_shift,b2,None,1.3,0.13,1.69,,Workday,None,1.3,0.13,1.69
+44,Rest Day,full_shift,b2,None,1.3,0.13,1.69,,Workday,Special,1.3,0.13,1.69
+45,Rest Day,full_shift,b2,None,1.3,0.13,1.69,,Workday,Regular,1.3,0.13,1.69
+46,Rest Day,full_shift,b2,None,1.3,0.13,1.69,,Rest Day,None,1.3,0.13,1.69
+47,Rest Day,full_shift,b2,None,1.3,0.13,1.69,,Rest Day,Special,1.3,0.13,1.69
+48,Rest Day,full_shift,b2,None,1.3,0.13,1.69,,Rest Day,Regular,1.3,0.13,1.69
+49,Rest Day,applicable_hours,b1,Special,1.5,0.15,1.95,,Workday,None,1,0.1,1.25
+50,Rest Day,applicable_hours,b1,Special,1.5,0.15,1.95,,Workday,Special,1.3,0.13,1.69
+51,Rest Day,applicable_hours,b1,Special,1.5,0.15,1.95,,Workday,Regular,2,0.2,2.6
+52,Rest Day,applicable_hours,b1,Special,1.5,0.15,1.95,,Rest Day,None,1.3,0.13,1.69
+53,Rest Day,applicable_hours,b1,Special,1.5,0.15,1.95,,Rest Day,Special,1.5,0.15,1.95
+54,Rest Day,applicable_hours,b1,Special,1.5,0.15,1.95,,Rest Day,Regular,2.6,0.28,3.38
+55,Rest Day,full_shift,b2,Special,1.5,0.15,1.95,,Workday,None,1.5,0.15,1.95
+56,Rest Day,full_shift,b2,Special,1.5,0.15,1.95,,Workday,Special,1.5,0.15,1.95
+57,Rest Day,full_shift,b2,Special,1.5,0.15,1.95,,Workday,Regular,1.5,0.15,1.95
+58,Rest Day,full_shift,b2,Special,1.5,0.15,1.95,,Rest Day,None,1.5,0.15,1.95
+59,Rest Day,full_shift,b2,Special,1.5,0.15,1.95,,Rest Day,Special,1.5,0.15,1.95
+60,Rest Day,full_shift,b2,Special,1.5,0.15,1.95,,Rest Day,Regular,1.5,0.15,1.95
+61,Rest Day,applicable_hours,b1,Regular,2.6,0.28,3.38,,Workday,None,1,0.1,1.25
+62,Rest Day,applicable_hours,b1,Regular,2.6,0.28,3.38,,Workday,Special,1.3,0.13,1.69
+63,Rest Day,applicable_hours,b1,Regular,2.6,0.28,3.38,,Workday,Regular,2,0.2,2.6
+64,Rest Day,applicable_hours,b1,Regular,2.6,0.28,3.38,,Rest Day,None,1.3,0.13,1.69
+65,Rest Day,applicable_hours,b1,Regular,2.6,0.28,3.38,,Rest Day,Special,1.5,0.15,1.95
+66,Rest Day,applicable_hours,b1,Regular,2.6,0.28,3.38,,Rest Day,Regular,2.6,0.28,3.38
+67,Rest Day,full_shift,b2,Regular,2.6,0.28,3.38,,Workday,None,2.6,0.28,3.38
+68,Rest Day,full_shift,b2,Regular,2.6,0.28,3.38,,Workday,Special,2.6,0.28,3.38
+69,Rest Day,full_shift,b2,Regular,2.6,0.28,3.38,,Workday,Regular,2.6,0.28,3.38
+70,Rest Day,full_shift,b2,Regular,2.6,0.28,3.38,,Rest Day,None,2.6,0.28,3.38
+71,Rest Day,full_shift,b2,Regular,2.6,0.28,3.38,,Rest Day,Special,2.6,0.28,3.38
+72,Rest Day,full_shift,b2,Regular,2.6,0.28,3.38,,Rest Day,Regula,2.6,0.28,3.38
